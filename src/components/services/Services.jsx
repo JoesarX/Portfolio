@@ -45,12 +45,12 @@ const Services = () => {
         <div className="title">
           <img src="/people.webp" alt="" />
           <h1>
-            <motion.b whileHover={{color:"orange"}}>Unique</motion.b> Ideas
+            What are my <motion.b whileHover={{color:"orange"}}>Knowledges</motion.b>.
           </h1>
         </div>
         <div className="title">
           <h1>
-            <motion.b whileHover={{color:"orange"}}>For Your</motion.b> Business.
+            and <motion.b whileHover={{color:"orange"}}>Skills.</motion.b>.
           </h1>
           <button>WHAT WE DO?</button>
         </div>
@@ -60,16 +60,50 @@ const Services = () => {
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Branding</h2>
+          <h2>Languages</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
+            - C++ <br />
+            - Java <br />
+            - Python <br />
+            - JavaScript/Typescript <br />
+            - HTML <br />
+            - CSS <br />
           </p>
-          <button>Go</button>
+          
         </motion.div>
         <motion.div
+          className="box"
+          whileHover={{ background: "lightgray", color: "black" }}
+        >
+          <h2>Databases</h2>
+          <p>
+            - MySQL <br />
+            - MongoDB <br />
+            - Firebase <br />
+            - PostgreSQL <br />
+            - Microsoft SQL Server <br />
+            - Oracle <br />
+            - Neo 4j <br />
+          </p>
+          
+        </motion.div>
+        <motion.div
+          className="box"
+          whileHover={{ background: "lightgray", color: "black" }}
+        >
+          <h2>Frameworks/Technologies</h2>
+          <p>
+            - React <br />
+            - Angular <br />
+            - Node.js <br />
+            - Express.js <br />
+            - Docker <br />
+            - AWS <br />
+            - Azure
+          </p>
+          
+        </motion.div>
+        {/* <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
@@ -81,33 +115,7 @@ const Services = () => {
             explicabo maiores?
           </p>
           <button>Go</button>
-        </motion.div>
-        <motion.div
-          className="box"
-          whileHover={{ background: "lightgray", color: "black" }}
-        >
-          <h2>Branding</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
-          </p>
-          <button>Go</button>
-        </motion.div>
-        <motion.div
-          className="box"
-          whileHover={{ background: "lightgray", color: "black" }}
-        >
-          <h2>Branding</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?
-          </p>
-          <button>Go</button>
-        </motion.div>
+        </motion.div> */}
       </motion.div>
     </motion.div>
   );
