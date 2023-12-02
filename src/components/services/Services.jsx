@@ -36,8 +36,8 @@ const Services = () => {
     >
       <motion.div className="textContainer" variants={variants}>
         <p>
-          I focus on helping your brand grow
-          <br /> and move forward
+          Passionate about technology,
+          <br /> always looking for new challenges.
         </p>
         <hr />
       </motion.div>
@@ -45,12 +45,12 @@ const Services = () => {
         <div className="title">
           <img src="/people.webp" alt="" />
           <h1>
-            What are my <motion.b whileHover={{color:"orange"}}>Knowledges</motion.b>.
+            What are my <motion.b whileHover={{ color: "orange" }}>Knowledges</motion.b>.
           </h1>
         </div>
         <div className="title">
           <h1>
-            and <motion.b whileHover={{color:"orange"}}>Skills.</motion.b>.
+            and <motion.b whileHover={{ color: "orange" }}>Skills.</motion.b>.
           </h1>
           <button>WHAT WE DO?</button>
         </div>
@@ -65,11 +65,12 @@ const Services = () => {
             - C++ <br />
             - Java <br />
             - Python <br />
-            - JavaScript/Typescript <br />
+            - JavaScript<br />
+            - Typescript <br />
             - HTML <br />
             - CSS <br />
           </p>
-          
+
         </motion.div>
         <motion.div
           className="box"
@@ -85,23 +86,40 @@ const Services = () => {
             - Oracle <br />
             - Neo 4j <br />
           </p>
-          
+
         </motion.div>
         <motion.div
           className="box"
           whileHover={{ background: "lightgray", color: "black" }}
         >
-          <h2>Frameworks/Technologies</h2>
+          <h2>Technologies</h2>
           <p>
             - React <br />
+            - Next <br />
             - Angular <br />
-            - Node.js <br />
             - Express.js <br />
             - Docker <br />
             - AWS <br />
             - Azure
           </p>
-          
+
+        </motion.div>
+        <motion.div
+          className="box"
+          whileHover={{ background: "lightgray", color: "black" }}
+        >
+          <h2>Certificates</h2>
+          <p>
+              - Certificate in HTML - Sololearn - 2023 <br />
+              - Certificate in CSS - Sololearn - 2023 <br />
+              - Certificate in JavaScript - Sololearn - 2023 <br />
+              - Certificate in Emerging Technology - Arizona State University - 2022 <br />
+              - Certificate of Completion C# Unity Game Developer 2D - Udemy - 2022 <br />
+              - Python Masterclass Certificate - Udemy - 2022 <br />
+              - Junior Achievement Guatemala - 2019
+
+          </p>
+
         </motion.div>
         {/* <motion.div
           className="box"
